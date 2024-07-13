@@ -2,6 +2,8 @@
 #include "BluetoothSerial.h"
 #include "config.h"
 #include "motor.h"
+#include "kinematics.h"
+#include "pid.h"
 
 String device_name = bt_device;
 BluetoothSerial SerialBT;
